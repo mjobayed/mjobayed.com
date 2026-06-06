@@ -130,6 +130,21 @@ body {
   padding: 0.9rem 2rem;
   border-top: 1px solid var(--tn-divider);
 }
+
+.theme-button {
+  padding: 0.5rem 1rem;
+  background-color: var(--tn-surface);
+  border: 1px solid var(--tn-divider);
+  border-radius: 0.5rem;
+  color: var(--tn-muted);
+  cursor: pointer;
+  font-family: "JetBrains Mono", monospace;
+}
+
+.theme-button:hover {
+  background-color: var(--tn-bg);
+  color: var(--tn-fg);
+  border-color: var(--tn-fg);
 }
 
 @media (max-width: 500px) {
