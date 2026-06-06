@@ -147,6 +147,15 @@ body {
   border-color: var(--tn-fg);
 }
 
+.source-link {
+  color: var(--tn-muted);
+  text-decoration: none;
+}
+
+.source-link:hover {
+  color: var(--tn-cyan);
+}
+
 @media (max-width: 500px) {
   .name {
     font-size: 2.4rem;
