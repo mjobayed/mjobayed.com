@@ -8,12 +8,15 @@
 
 [data-theme="tokyonight-day"] {
   --tn-bg: #e6e7ed;
+  --tn-fg: #343b58;
 }
 
 [data-theme="tokyonight-night"] {
   --tn-bg: #1a1b26;
+  --tn-fg: #c0caf5;
 }
 
 body {
   background-color: var(--tn-bg);
+  color: var(--tn-fg);
 }
