@@ -10,12 +10,14 @@
 
 [data-theme="tokyonight-day"] {
   --tn-bg: #e6e7ed;
+  --tn-alt-bg: #c0c3ce;
   --tn-fg: #343b58;
   --tn-divider: #b4b5c0;
 }
 
 [data-theme="tokyonight-night"] {
   --tn-bg: #1a1b26;
+  --tn-alt-bg: #121217;
   --tn-fg: #c0caf5;
   --tn-divider: #2a2b3d;
 }
@@ -44,6 +46,13 @@ body {
   font-size: 3rem;
   font-weight: 500;
   letter-spacing: -0.2rem;
+}
+
+.email {
+  background-color: var(--tn-alt-bg);
+  padding: 0.5rem 1rem;
+  border-radius: 0.4rem;
+  font-weight: 500;
 }
 
 .divider {
