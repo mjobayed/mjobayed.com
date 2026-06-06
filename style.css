@@ -26,6 +26,11 @@ body {
   align-items: center;
 }
 
+.links-mobile {
+  display: none;
+  flex-direction: column;
+}
+
 .footer {
   position: fixed;
   bottom: 0;
@@ -33,4 +38,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 500px) {
+  .links-desktop {
+    display: none;
+  }
+
+  .links-mobile {
+    display: flex;
+  }
 }
