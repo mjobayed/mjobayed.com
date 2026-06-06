@@ -16,6 +16,7 @@
   --tn-surface: #cbccd1;
   --tn-cyan: #0f4b6e;
   --tn-magenta: #5a3e8e;
+  --tn-muted: #8c8fa1;
 }
 
 [data-theme="tokyonight-night"] {
@@ -26,6 +27,7 @@
   --tn-surface: #1f2335;
   --tn-cyan: #7dcfff;
   --tn-magenta: #bb9af7;
+  --tn-muted: #565f89;
 }
 
 body {
@@ -86,6 +88,17 @@ body {
 .links-mobile {
   display: none;
   flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.link-m {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.lm-handle {
+  color: var(--tn-muted);
 }
 
 .c-cyan {
