@@ -40,6 +40,12 @@ body {
   max-width: 680px;
 }
 
+.name {
+  font-size: 3rem;
+  font-weight: 500;
+  letter-spacing: -0.2rem;
+}
+
 .divider {
   width: 100%;
   border: none;
