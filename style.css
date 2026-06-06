@@ -26,6 +26,14 @@ body {
   align-items: center;
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  max-width: 680px;
+}
 .links-mobile {
   display: none;
   flex-direction: column;
