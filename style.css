@@ -5,3 +5,15 @@
   margin: 0;
   padding: 0;
 }
+
+[data-theme="tokyonight-day"] {
+  --tn-bg: #e6e7ed;
+}
+
+[data-theme="tokyonight-night"] {
+  --tn-bg: #1a1b26;
+}
+
+body {
+  background-color: var(--tn-bg);
+}
