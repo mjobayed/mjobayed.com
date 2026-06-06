@@ -9,11 +9,13 @@
 [data-theme="tokyonight-day"] {
   --tn-bg: #e6e7ed;
   --tn-fg: #343b58;
+  --tn-divider: #b4b5c0;
 }
 
 [data-theme="tokyonight-night"] {
   --tn-bg: #1a1b26;
   --tn-fg: #c0caf5;
+  --tn-divider: #2a2b3d;
 }
 
 body {
@@ -34,6 +36,13 @@ body {
   width: 100%;
   max-width: 680px;
 }
+
+.divider {
+  width: 100%;
+  border: none;
+  border-top: 1px solid var(--tn-divider);
+}
+
 .links-mobile {
   display: none;
   flex-direction: column;
