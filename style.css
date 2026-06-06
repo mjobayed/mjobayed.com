@@ -126,6 +126,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 2rem;
+  padding: 0.9rem 2rem;
+  border-top: 1px solid var(--tn-divider);
+}
 }
 
 @media (max-width: 500px) {
