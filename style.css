@@ -135,9 +135,10 @@ body {
   bottom: 0;
   width: 100vw;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 0.5rem;
   padding: 0.9rem 2rem;
   border-top: 1px solid var(--tn-divider);
 }
@@ -158,7 +159,8 @@ body {
   border-color: var(--tn-fg);
 }
 
-.source-link {
+.source-link,
+.social-disclaimer {
   color: var(--tn-muted);
   text-decoration: none;
 }
